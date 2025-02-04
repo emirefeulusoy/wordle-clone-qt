@@ -35,7 +35,7 @@ void InputHandler::fillDictionary(QStringList &dictionary, const QString &filePa
 }
 
 
-
+ // game starter function
 void InputHandler::gameStarted() {
     qsrand(static_cast<uint>(time(nullptr)));
     QStringList dictionary;
